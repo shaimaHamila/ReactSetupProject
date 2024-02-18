@@ -6,7 +6,7 @@ const Dashboard = () => {
             <h1>Welcome to the Dashboard</h1>
             <p>Ant design is working successfully. You can now start building your</p>
             <DatePicker />
-            <Button type="primary">Primary Button</Button>
+            <Button type='primary'>Primary Button</Button>
         </div>
     );
 };

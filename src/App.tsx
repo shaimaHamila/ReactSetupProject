@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import "./App.css";
 import PrivateRoutes from "./routes/PrivateRoutes";
 import PublicRoutes from "./routes/PublicRoutes";
@@ -14,7 +14,7 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="*" element={loggedIn ? <PrivateRoutes /> : <PublicRoutes />}></Route>
+                <Route path='*' element={loggedIn ? <PrivateRoutes /> : <PublicRoutes />}></Route>
             </Routes>
         </Router>
     );

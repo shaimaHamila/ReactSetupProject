@@ -5,7 +5,7 @@ const PrivateRoutes = () => {
     return (
         //add navbare and topbar components here
         <Routes>
-            <Route path="*" element={<Dashboard />}></Route>
+            <Route path='*' element={<Dashboard />}></Route>
             {/* <Route path="/signup" element={<Shippment />}></Route> */}
         </Routes>
     );
